@@ -1,0 +1,2 @@
+step1 create cities-db at pgadmin4
+adjust application.properties with current database user and password
