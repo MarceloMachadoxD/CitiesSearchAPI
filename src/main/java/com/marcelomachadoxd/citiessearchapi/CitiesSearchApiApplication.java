@@ -1,4 +1,4 @@
-package com.marcelomachadoxd.citiessearchapi.demo;
+package com.marcelomachadoxd.citiessearchapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
