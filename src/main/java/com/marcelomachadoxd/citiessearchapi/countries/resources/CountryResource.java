@@ -24,7 +24,7 @@ public class CountryResource {
         return repository.findAll();
     }
 
-    @GetMapping("/page")
+    @GetMapping("/page") //request-example http://localhost:8080/countries/page?page=0&size=10&sort=name,asc
     public Page<Country> countries(Pageable page){
         return repository.findAll(page);
     }
