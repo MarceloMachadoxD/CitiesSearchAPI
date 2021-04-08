@@ -23,10 +23,10 @@ public class CityResourse {
         this.cityrepository = repository;
     }
 
-  @GetMapping
+/*  @GetMapping
   public List<City> cities() {
       return cityrepository.findAll();
-  }
+  }*/
 
 
     @GetMapping("/page")
