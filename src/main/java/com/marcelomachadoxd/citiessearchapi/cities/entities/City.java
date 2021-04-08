@@ -26,8 +26,8 @@ public class City {
     private Integer ibge;
 
 
-/*    @Column(name = "lat_lon")
-    private String geolocation;*/
+   @Column(name = "lat_lon")
+    private String geolocation;
 
     // 2nd
 /*    @Type(type = "point")
@@ -63,9 +63,9 @@ public class City {
         return ibge;
     }
 
-/*    public String getGeolocation() {
+    public String getGeolocation() {
         return geolocation;
-    }*/
+    }
 
 /*    public Point getLocation() {
         return location;
